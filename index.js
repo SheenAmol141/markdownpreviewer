@@ -69,6 +69,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
+                <h1>Sheen Amol Markdown Previewer</h1>
                 <textarea id="editor" onChange={this.onChangeHandler} value={this.state.input}>AAAA</textarea>
                 <Preview markdown={this.state.input}/>                
             </div>
